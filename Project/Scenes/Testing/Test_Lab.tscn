@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://m1q6cwqblopv"]
+
+[ext_resource type="PackedScene" uid="uid://bt87v5jpje7fs" path="res://Project/Assets/Testing/BasicBlocksGodot.glb" id="1_pi541"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="BasicBlocksGodot" parent="." instance=ExtResource("1_pi541")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.174112, 0, 0.134154)
